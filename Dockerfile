@@ -4,6 +4,6 @@ COPY . /app
 WORKDIR /app
 RUN pip install healthcheck
 RUN pip install -r requirements.txt
-EXPOSE 8000
+EXPOSE 6000
 ENTRYPOINT ["python"]
 CMD ["app.py"]
